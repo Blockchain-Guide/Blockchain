@@ -7,7 +7,7 @@ ubuntu-16.04.4-desktop-amd64.iso
 Then Device-> Insert Guest Addtion CD
 
 Set in the virtualbox -> shared files -> fixed allocation -> right, get the following figure
-
+![path](/picture/Sharefolder-path.png)
 
 * Command
 ```
