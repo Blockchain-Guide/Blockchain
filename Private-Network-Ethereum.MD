@@ -69,7 +69,8 @@ Welcome to the Geth JavaScript console!
  
 * Get accounts
 
-```> eth.accounts
+```
+> eth.accounts
 []
 
 ```
