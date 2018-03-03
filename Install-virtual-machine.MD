@@ -1,6 +1,7 @@
 # Overview
 * Download virtualbox
 * Download ubuntu OS 
+* Ethereum-Wallet-linux64-0-9-3.zip
 ubuntu-16.04.4-desktop-amd64.iso
 * Installing 
 * Setting share folder between host and virtual host </br>
