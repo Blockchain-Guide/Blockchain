@@ -66,4 +66,52 @@ INFO [03-03|22:08:11] IPC endpoint opened                      url=/Users/i32529
 Welcome to the Geth JavaScript console!
 ```
 ![start node](/picture/Start-node.png)
-  
+ 
+* Get accounts
+
+```> eth.accounts
+[]
+
+```
+* Create account
+
+```
+> personal.newAccount("kevin")
+"0x4204997f5531bb62043dc1cda482108ab154bbc2"
+```
+
+* miner start
+
+```
+> miner.start()
+INFO [03-03|22:30:00] Updated mining threads                   threads=0
+INFO [03-03|22:30:00] Transaction pool price threshold updated price=18000000000
+INFO [03-03|22:30:00] Etherbase automatically configured       address=0x4204997f5531bB62043DC1cdA482108Ab154Bbc2
+INFO [03-03|22:30:00] Starting mining operation
+null
+> INFO [03-03|22:30:00] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=140.031µs
+INFO [03-03|22:30:02] Generating DAG in progress               epoch=0 percentage=0 elapsed=863.014ms
+INFO [03-03|22:30:02] Generating DAG in progress               epoch=0 percentage=1 elapsed=1.732s
+INFO [03-03|22:30:03] Generating DAG in progress               epoch=0 percentage=2 elapsed=2.597s
+INFO [03-03|22:30:04] Generating DAG in progress               epoch=0 percentage=3 elapsed=3.467s
+INFO [03-03|22:30:05] Generating DAG in progress               epoch=0 percentage=4 elapsed=4.338s
+INFO [03-03|22:30:06] Generating DAG in progress               epoch=0 percentage=5 elapsed=5.200s
+INFO [03-03|22:30:07] Generating DAG in progress               epoch=0 percentage=6 elapsed=6.064s
+INFO [03-03|22:30:08] Generating DAG in progress               epoch=0 percentage=7 elapsed=6.939s
+INFO [03-03|22:30:09] Generating DAG in progress               epoch=0 percentage=8 elapsed=7.804s
+INFO [03-03|22:30:09] Generating DAG in progress               epoch=0 percentage=9 elapsed=8.695s
+INFO [03-03|22:30:10] Generating DAG in progress               epoch=0 percentage=10 elapsed=9.577s
+INFO [03-03|22:30:11] Generating DAG in progress               epoch=0 percentage=11 elapsed=10.444s
+INFO [03-03|22:30:12] Generating DAG in progress               epoch=0 percentage=12 elapsed=11.313s
+INFO [03-03|22:30:13] Generating DAG in progress               epoch=0 percentage=13 elapsed=12.222s
+INFO [03-03|22:30:14] Generating DAG in progress               epoch=0 percentage=14 elapsed=13.131s
+INFO [03-03|22:30:15] Generating DAG in progress               epoch=0 percentage=15 elapsed=14.028s
+INFO [03-03|22:30:16] Generating DAG in progress               epoch=0 percentage=16 elapsed=14.937s
+INFO [03-03|22:30:17] Generating DAG in progress               epoch=0 percentage=17 elapsed=15.847s
+
+INFO [03-03|22:31:32] Generated ethash verification cache      epoch=0 elapsed=1m31.256s
+INFO [03-03|22:31:35] Successfully sealed new block            number=1 hash=0d1bfb…effc1f
+INFO [03-03|22:31:35] 🔨 mined potential block                  number=1 hash=0d1bfb…effc1f
+```
+
+
