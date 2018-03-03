@@ -11,5 +11,5 @@ Introduce Geth,Browser-solidity,Mist
 * Mist
 Mist connect geth internet via geth.ipc
 
-![geth.ipc](/picture/Geth-ipc)
+![geth-ipc](/picture/Geth-ipc.png)
 
