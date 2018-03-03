@@ -57,11 +57,43 @@ Archive:  Mist-linux64-0-9-3.zip
 * move files to Mist folder
 
 ```
-kevin@kevin-VirtualBox:~/Work/Blockchain$ mv linux-unpacked/ Mist/
-kevin@kevin-VirtualBox:~/Work/Blockchain$ ls
-Ethereum-Wallet-linux64-0-9-3.zip  Mist  Mist-linux64-0-9-3.zip
-kevin@kevin-VirtualBox:~/Work/Blockchain$ cd Mist
-kevin@kevin-VirtualBox:~/Work/Blockchain/Mist$ ls
+kevin@kevin-VirtualBox:~/ethereum$ mv linux-unpacked/ Mist/
+
+```
+
+* Running .mist
+
+```
+kevin@kevin-VirtualBox:~/ethereum/Mist$ ./mist
+[2018-03-03 13:09:08.703] [INFO] main - Running in production mode: true
+[2018-03-03 13:09:08.770] [INFO] EthereumNode - undefined null 'fast'
+[2018-03-03 13:09:08.779] [INFO] EthereumNode - Defaults loaded: geth main fast
+[2018-03-03 13:09:09.178] [INFO] main - Starting in Mist mode
+[2018-03-03 13:09:09.293] [INFO] Db - Creating db: /home/kevin/.config/Mist/mist.lokidb
+[2018-03-03 13:09:09.322] [INFO] Db - Loading db: /home/kevin/.config/Mist/mist.lokidb
+[2018-03-03 13:09:09.349] [INFO] Windows - Creating commonly-used windows
+[2018-03-03 13:09:09.349] [INFO] Windows - Create secondary window: loading, owner: notset
+[2018-03-03 13:09:09.474] [INFO] updateChecker - Check for update...
+[2018-03-03 13:09:12.304] [INFO] Windows - Create primary window: main, owner: notset
+[2018-03-03 13:09:12.326] [INFO] Windows - Create primary window: splash, owner: notset
+[2018-03-03 13:09:13.064] [INFO] ipcCommunicator - Backend language set to:  en
+[2018-03-03 13:09:13.935] [INFO] (ui: splashscreen) - Web3 already initialized, re-using provider.
+[2018-03-03 13:09:14.050] [INFO] (ui: splashscreen) - Meteor starting up...
+[2018-03-03 13:09:14.234] [INFO] ClientBinaryManager - Initializing...
+[2018-03-03 13:09:14.240] [INFO] ClientBinaryManager - Checking for new client binaries config from: https://raw.githubusercontent.com/ethereum/mist/master/clientBinaries.json
+[2018-03-03 13:09:16.140] [WARN] ClientBinaryManager - Error loading local config - assuming this is a first run: Error: ENOENT: no such file or directory, open '/home/kevin/.config/Mist/clientBinaries.json'
+[2018-03-03 13:09:16.140] [INFO] ClientBinaryManager - Write new client binaries local config to disk ...
+[2018-03-03 13:09:16.141] [INFO] ClientBinaryManager - No "skippedNodeVersion.json" found.
+[2018-03-03 13:09:16.144] [INFO] ClientBinaryManager - Initializing...
+[2018-03-03 13:09:16.144] [INFO] ClientBinaryManager - Resolving platform...
+[2018-03-03 13:09:16.144] [INFO] ClientBinaryManager - Calculating possible clients...
+[2018-03-03 13:09:16.145] [INFO] ClientBinaryManager - 1 possible clients.
+[2018-03-03 13:09:16.145] [INFO] ClientBinaryManager - Verifying status of all 1 possible clients...
+[2018-03-03 13:09:16.146] [INFO] ClientBinaryManager - Verify Geth status ...
+[2018-03-03 13:09:16.156] [ERROR] ClientBinaryManager - Unable to resolve Geth executable: geth
+[2018-03-03 13:09:16.176] [INFO] ClientBinaryManager - Download binary for Geth ...
+[2018-03-03 13:09:16.182] [INFO] ClientBinaryManager - Downloading package from https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.8.1-1e67410e.tar.gz to /home/kevin/.config/Mist/binaries/Geth/archive.tar ...
+[2018-03-03 13:09:17.467] [INFO] updateChecker - App is up-to-date.
 
 ```
 
