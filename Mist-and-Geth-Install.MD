@@ -27,7 +27,7 @@ remote: Total 6 (delta 0), reused 2 (delta 0), pack-reused 0
 Unpacking objects: 100% (6/6), done.
 Tapped 3 formulae (32 files, 33KB)
 
-
+C02VX21EHTD5:/ i325291$ brew install ethereum
 
 ```
 
