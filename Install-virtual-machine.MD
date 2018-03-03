@@ -1,7 +1,7 @@
 # Overview
 * Download virtualbox
 * Download ubuntu OS 
-* Download Ethereum-Wallet-linux64-0-9-3.zip and  Mist-linux64-0-9-3.zip
+* Download Ethereum-Wallet-linux64-0-9-3.zip and  Mist-linux64-0-9-3.zip</br>
 https://github.com/ethereum/mist/releases 
 
 ubuntu-16.04.4-desktop-amd64.iso
