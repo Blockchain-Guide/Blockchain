@@ -46,4 +46,23 @@ kevin@kevin-VirtualBox:/mnt$ sudo apt-get install lrzsz -y
 
 ```
   
-  
+* unzip command
+
+```
+kevin@kevin-VirtualBox:~/Work$ cd Blockchain/
+kevin@kevin-VirtualBox:~/Work/Blockchain$ ls
+Ethereum-Wallet-linux64-0-9-3.zip  Mist-linux64-0-9-3.zip
+kevin@kevin-VirtualBox:~/Work/Blockchain$ unzip Ethereum-Wallet-linux64-0-9-3.zip 
+
+```
+* move files to Mist folder
+
+```
+kevin@kevin-VirtualBox:~/Work/Blockchain$ mv linux-unpacked/ Mist/
+kevin@kevin-VirtualBox:~/Work/Blockchain$ ls
+Ethereum-Wallet-linux64-0-9-3.zip  Mist  Mist-linux64-0-9-3.zip
+kevin@kevin-VirtualBox:~/Work/Blockchain$ cd Mist
+kevin@kevin-VirtualBox:~/Work/Blockchain/Mist$ ls
+
+```
+
