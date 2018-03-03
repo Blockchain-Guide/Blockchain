@@ -39,6 +39,8 @@ kevin@kevin-VirtualBox:/mnt$ sudo service ssh status
  Main PID: 3244 (sshd)
    CGroup: /system.slice/ssh.service
            └─3244 /usr/sbin/sshd -D
+kevin@kevin-VirtualBox:/mnt$ sudo apt-get install lrzsz -y
+
 
 ```
   
