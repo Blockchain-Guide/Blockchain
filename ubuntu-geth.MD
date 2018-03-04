@@ -15,9 +15,9 @@ sudo vi /etc/network/interfaces
 
 ```
 
-auto eth0
+auto enp0s3
 
-iface eth0 inet static
+iface enp0s3 inet static
 
 address 192.168.1.150
 
