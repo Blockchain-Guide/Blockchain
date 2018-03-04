@@ -54,7 +54,36 @@ Error: exceeds block gas limit
 
 ![geth transaction](/picture/Geth-transaction.png)
 
+```
+> eth.sendTransaction({from:acc0,to:acc1,value:amount})
+Error: authentication needed: password or unlock
+    at web3.js:3143:20
+    at web3.js:6347:15
+    at web3.js:5081:36
+    at <anonymous>:1:1
+```
+* The result is as follows:</br>
 
-![error](/picture/Transaction-error.png)
+![error](/picture/Transaction-error.png)</br>
+
+This is a protection mechanism for Ethereum that automatically locks the account from time to time, at which time any ether conversion between accounts will be denied unless the account is unlocked.
+
+This time we need to perform personal.unlockAccount(acc0)and enter the password to unlock acc0 available.
+
+```
+> eth.sendTransaction({from:acc0,to:acc1,value:amount})
+Error: exceeds block gas limit
+    at web3.js:3143:20
+    at web3.js:6347:15
+    at web3.js:5081:36
+    at <anonymous>:1:1
+
+>
+```
+* The result is as follows:</br>
 
 ![limit](/picture/Limit.png)
+
+This is because my account is not currency. it is right 
+
+
