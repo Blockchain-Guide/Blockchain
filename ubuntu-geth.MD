@@ -44,3 +44,10 @@ sudo vi /etc/resolvconf/resolv.conf.d/base
 
 nameserver 192.168.0.1
 
+* restart network or restart computer
+
+```
+sudo /etc/init.d/networking restart
+or
+sudo reboot
+```
