@@ -1,4 +1,7 @@
 # Overview
+1. VirtualBox After installing Ubuntu , the default should be to open a network card, the connection method according to the host computer to connect (if the physical machine is wired through the Internet, you need to use NAT network connection, if it is a wireless network, you need to use the bridge Way Internet), the network card is responsible for the virtual machine's Internet.
+2. add a network card, connection options only host (Host-Only) adapter.
+3. into the ubuntu system, ifconfig-a, view the current network card information, according to the HWaddr field to see if there are two NICs and VirtualBox inside
 
 * Install geth in the ubuntu OS
 
@@ -51,3 +54,4 @@ sudo /etc/init.d/networking restart
 or
 sudo reboot
 ```
+**helplink:https://www.linuxidc.com/Linux/2016-09/134963.htm**
