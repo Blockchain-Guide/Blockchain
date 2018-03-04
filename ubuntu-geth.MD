@@ -8,6 +8,10 @@ $ sudo apt-get update
 $ sudo apt-get install ethereum
 ```
 
+* set network 
+
+![network](/picture/Network.png)
+
 * Set static IP
 
 ```
