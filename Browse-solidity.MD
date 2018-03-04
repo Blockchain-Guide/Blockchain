@@ -25,7 +25,7 @@ Open VPN
         }
     }
 ```
-![Web IDE](/picture/Demo-Web-IDE)
+![Web IDE](/picture/Demo-Web-IDE.png)
 
 ```
 WEB3DEPLOY
@@ -42,4 +42,4 @@ var demotypes = demotypesContract.new(
     }
  })
 ```
-![WEB3DEPLOY](/picture/WEB3DEPLOY)
+![WEB3DEPLOY](/picture/WEB3DEPLOY.png)
