@@ -54,4 +54,20 @@ sudo /etc/init.d/networking restart
 or
 sudo reboot
 ```
+* Mac-connect-remote-linux
+
+```
+C02VX21EHTD5:~ i325291$ sudo su -
+Password:
+
+C02VX21EHTD5:~ root# ssh -p 22 kevin@192.168.0.150
+The authenticity of host '192.168.0.150 (192.168.0.150)' can't be established.
+ECDSA key fingerprint is SHA256:nyS6Xlgx9tulCSpd+lNPeDrhzLMbXTOYNeg7ut8Jusc.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.150' (ECDSA) to the list of known hosts.
+kevin@192.168.0.150's password:
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.13.0-36-generic x86_64)
+
+```
+
 **helplink:https://www.linuxidc.com/Linux/2016-09/134963.htm**
