@@ -55,4 +55,4 @@ Error: exceeds block gas limit
 ![geth transaction](/picture/Geth-transaction.png)
 
 
-![error](/picture/Error-transaction.png)
+![error](/picture/Transaction.-errorpng)
