@@ -69,5 +69,13 @@ kevin@192.168.0.150's password:
 Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.13.0-36-generic x86_64)
 
 ```
+* Install ssh server
+
+```
+sudo apt-get install openssh-server
+
+sudo service ssh start
+
+```
 
 **helplink:https://www.linuxidc.com/Linux/2016-09/134963.htm**
