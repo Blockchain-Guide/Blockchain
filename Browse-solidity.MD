@@ -25,7 +25,7 @@ Open VPN
         }
     }
 ```
-![Web IDE](/picture/Demo-WEB-IDE)
+![Web IDE](/picture/Demo-Web-IDE)
 
 ```
 WEB3DEPLOY
